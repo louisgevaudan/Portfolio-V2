@@ -1,24 +1,16 @@
-# portfoliov2
-
-## Project setup
+## Portfolio
 ```
-npm install
+Un site sur lequel ce trouves mes divers projets, souvent actualisé lorsqu'un nouveau projet émerge. Toutes les informations à mon sujet sont dessus.
 ```
 
-### Compiles and hot-reloads for development
+## Front-End
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+Le frontend est en Vuejs et TailwindCss.
 ```
 
-### Lints and fixes files
+## Animations interactives 
 ```
-npm run lint
+Crée à l'aide de Vue-Kinesis.
+vue-kinesis est un ensemble de composants qui vous permettent de créer des animations interactives pour vos applications Vue.js.
+[Cliquez-ici !](https://aminerman.com/kinesis/#/)
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
