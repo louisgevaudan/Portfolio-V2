@@ -26,5 +26,5 @@ vue-kinesis est un ensemble de composants qui vous permettent de créer des anim
 [Cliquez-ici pour en savoir plus !](https://aminerman.com/kinesis/#/)
 
 Create with Vue-kinesis.
-vue-kinesis is a set of components that allow you to create interactive animations for your Vue.js applications.[click here for more informations](https://aminerman.com/kinesis/#/)
+vue-kinesis is a set of components that allow you to create interactive animations for your Vue.js applications. [Click here for more informations](https://aminerman.com/kinesis/#/)
 
