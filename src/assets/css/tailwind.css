@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.titre-section{
+    @apply my-2 text-3xl font-bold;
+}
+.hr{
+    @apply h-1 w-64 my-0 py-0 rounded mt-5 mb-5;
+}
+
+body section{
+    @apply bg-white py-8 ;
+}
+
+
+/*==== Section Propos ====*/
+.propos{
+    @apply flex flex-wrap;
+}
+
+.propos p{
+    @apply text-justify text-xl mb-8;
+}
+
+.propos p span{
+    @apply text-red-600 font-bold;
+}
+
+
+/*==== Section Skill ====*/
+.cont-card{
+    @apply flex flex-col w-5/6 mx-auto rounded-lg mt-4 shadow-lg;
+}
+
+.card-skill{
+    @apply flex-1 text-center rounded shadow;
+}
+
+.card-skill p{
+    @apply text-gray-800;
+}
+
+.card-skill i{
+    @apply text-6xl;
+}
+
+.card-skill h3{
+    @apply py-4 font-bold;
+}
+.titre-card{
+    @apply w-full p-2 text-3xl font-bold;
+}
+
+.logo-card{
+    @apply m-auto w-2/4;
+}
+
+
+/*==== Section Portfolio ====*/
+.container-cardP{
+    @apply flex m-2 p-2 border-2 rounded-lg text-center;
+}
+
+.card-portfolio:hover{
+    @apply flex-1 bg-red-800 rounded-lg text-white shadow-2xl;
+}
+
+.card-portfolio h1{
+    @apply p-8 text-3xl font-bold;
+}
+
+.card-portfolio p{
+    @apply p-5;
+}
+
+.card-portfolio i{
+    @apply ml-2 text-base;
+}
+
+.btn-projet{
+    @apply bg-red-700 text-white font-bold rounded-full my-6 py-4 px-8  ;
+}
+
+
+/*==== Section Contact ====*/
+.text-contact{
+    
+}
+
+.btn-contact{
+    @apply bg-red-700 text-2xl text-white font-bold rounded-full mt-4 py-4 px-8 shadow-xl;
+}
+
+.btn-contact:hover{
+@apply text-gray-900;
+}
+
+#contact p{
+    @apply text-xl;
+}
+
+
+/*==== Projets ====*/
+.btn-back{
+    @apply font-bold text-sm px-4 py-2 leading-none rounded text-white border border-white;
+}
+.btn-back:hover{
+    @apply border-transparent text-black bg-white;
+}
+.info{
+    @apply m-auto;
+}
+.info h2{
+    @apply text-xl;
+}
+.task{
+    @apply flex flex-wrap mb-10;
+}
+.task h1{
+    @apply text-xl leading-tight text-gray-800 mr-4;
+}
+.task p{
+    @apply mr-4 text-lg;
+}
+.task p i{
+    @apply mr-1 text-green-600;
+}
+
+
+/*==== Responsive ====*/
+@screen lg{
+    .cont-card{
+        @apply mr-8 w-1/3;
+    }
+    .btn-back{
+        @apply mt-0 ;
+    }
+}
+@screen md{
+    .titre-section{
+        @apply text-5xl;
+    }
+    .container-cardP{
+        @apply w-3/12;
+    }
+    #contact p{
+        @apply text-2xl;
+    }
+    .info h2{
+        @apply text-2xl;
+    }
+}
+@screen sm{
+    .cont-card{
+        @apply -mt-6;
+    }
+}
