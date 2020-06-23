@@ -15,7 +15,7 @@ Un site sur lequel ce trouves mes divers projets, souvent actualisé lorsqu'un n
 
 ## Responsive ?
 
-Oui ! Grâce à l'utilisation du framework TailwindCss que vous pouvez retrouver [en cliquant-ici](https://tailwindcss.com/).
+Oui ! Grâce à l'utilisation du framework TailwindCss que vous pouvez retrouver [en cliquant ici](https://tailwindcss.com/).
 
 Yes ! Through the use of the Tailwind Css framework [click here for more informations](https://tailwindcss.com/).
 
